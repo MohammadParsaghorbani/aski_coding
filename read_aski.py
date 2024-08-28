@@ -1,5 +1,5 @@
 line = int(input("line = "))
-file = open("aski.txt" , "r")
+file = open("aski_code.txt" , "r")
 ordd = []
 chr = []
 correct = ""
