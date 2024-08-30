@@ -7,8 +7,9 @@ content = file.readline()
 for i in range(line):
     content = file.readline()
 for i in content:
-    x = ord(i)-11
-    ordd.append(x)
+    x = ord(i)-5
+    z = x//2
+    ordd.append(2)
 for i in ordd:
     correct += chr(i)
 print(content)
