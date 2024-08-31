@@ -14,24 +14,18 @@ user_name = input("at first you should register!\nso please enter your name: ")
 user_lastname = input("now enter your last name: ")
 user_phone = input("enter your phone number: ")
 file = open("aski_code.txt" , "a")
-name = []
-lname = []
-phone = []
 n = ""
 ln = ""
 ph = ""
 for i in user_name:
-    name.append(ord(i)*2+5)
+    z = ord(i)*2+5
+    n += chr(z)
 for i in user_lastname:
-    lname.append(ord(i)*2+5)
+    z = ord(i)*2+5
+    ln += chr(z)
 for i in user_phone:
-    phone.append(ord(i)*2+5)
-for i in name:
-    n += chr(i)
-for i in lname:
-    ln += chr(i)
-for i in phone:
-    ph += chr(i)
+    z = ord(i)*2+5
+    ph += chr(z)
 content = file.write(f"\n----------------\nname = {n}\nlastname = {ln}\nphonenumber = {ph}")
 again = "y"
 total = 0
