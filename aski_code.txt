@@ -1,6 +1,7 @@
+
 ----------------
-name = ï¿½ï¿½ï¿½ï¿½ï¿½
-lastname = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+name = åÇéëÇ
+lastname = ÓÕãéÉÇá×
 phonenumber = ewggmimmemw
 item = barbary-item_number = 10
 buy_times = 1
