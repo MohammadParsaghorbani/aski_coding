@@ -13,7 +13,7 @@ print("b : barbary\nl : lavash\nt : taptoon\nbu : buget\ns : sangak")
 user_name = input("at first you should register!\nso please enter your name: ")
 user_lastname = input("now enter your last name: ")
 user_phone = input("enter your phone number: ")
-file = open("E:\python\new\homework\aski\aski_coding\aski_code.txt" , "a")
+file = open("aski_code.txt" , "a")
 n = ""
 ln = ""
 ph = ""
