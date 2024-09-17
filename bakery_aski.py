@@ -2,7 +2,7 @@
 
 bakery = {
     "barbary" : 1500,
-    "lavash" : 3500,
+    "lavash" : 3500,#products
     "taftoon" : 2500,
     "buget" : 7000,
     "sangak" : 3000
